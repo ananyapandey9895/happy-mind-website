@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import organizationHero from "@/assets/AboutpageHERO.png";
+import organizationHero from "@/assets/about-hero.jpeg";
 
 const AboutHeroSection = () => {
   return (
@@ -9,7 +9,7 @@ const AboutHeroSection = () => {
           {/* Left Content */}
           <div className="space-y-6">
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              We're a <span className="text-primary">People First Company</span> in a Tech First World
+              We're A <span className="text-primary">People First Company</span> In A Tech First World
             </h1>
             
             <h2 className="font-sans text-2xl md:text-3xl text-muted-foreground leading-relaxed">
@@ -17,7 +17,7 @@ const AboutHeroSection = () => {
             </h2>
             
             <h3 className="font-serif text-2xl text-primary italic">
-              Growth that feels natural. Impact that lasts.
+              Growth That Feels Natural. Impact That Lasts.
             </h3>
             
             

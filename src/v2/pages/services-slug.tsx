@@ -177,7 +177,7 @@ const COMPARE_CATEGORIES: {
       items: [
         {
           label: "One-on-One Growth Conversations - SOLV",
-          values: [null, 1, 1, 1, 1, 1],
+          values: [null, null, 1, 1, 1, 1],
         },
         {
           label: "Therapist-led Counselling Sessions - HappiTalk",

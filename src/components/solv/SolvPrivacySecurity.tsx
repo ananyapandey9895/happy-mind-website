@@ -26,7 +26,7 @@ const SolvPrivacySecurity = () => {
             <Shield className="w-8 h-8 text-primary" />
           </div>
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground">
-            Your space. Your data. Your control.
+            Your Space. Your Data. Your Control.
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed max-w-xl mx-auto">
             Your journey is personal. Your data stays private.

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/SOLV_heroimage.png";
+import heroImage from "@/assets/solv-hero.jpeg";
 
 const pills = [
   "Built for Today's Generation",
@@ -33,12 +33,12 @@ const SolvHeroSection = () => {
 
             {/* H1 */}
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6 leading-tight">
-              Conscious Growth is the Key for Any Life Challenges
+              Conscious Growth Is The Key For Any Life Challenges
             </h1>
 
             {/* H2 */}
             <h2 className="font-serif text-xl md:text-2xl text-primary font-medium mb-6">
-              Know Yourself with Science-Backed Accuracy
+              Know Yourself With Science-Backed Accuracy
             </h2>
 
             {/* Copy */}

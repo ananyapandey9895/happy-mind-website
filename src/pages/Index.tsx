@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import WhatSpaceSection from "@/components/WhatSpaceSection";
 import WhoIsThisForSection from "@/components/WhoIsThisForSection";
 import ImpactStatsSection from "@/components/ImpactStatsSection";
+import GrowthRoadmapSection from "@/components/GrowthRoadmapSection";
 import TrustedBySection from "@/components/TrustedBySection";
 import VoicesSection from "@/components/VoicesSection";
 import SocialsSection from "@/components/SocialsSection";
@@ -34,6 +35,9 @@ const Index = () => {
         </div>
         <div className="surface-band">
           <ImpactStatsSection />
+        </div>
+        <div className="surface-canvas">
+          <GrowthRoadmapSection />
         </div>
         <div className="bg-card">
           <TrustedBySection />

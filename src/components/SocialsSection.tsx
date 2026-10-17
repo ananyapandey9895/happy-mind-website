@@ -86,7 +86,7 @@ const SocialsSection = () => {
             }`}
             style={{ transitionDelay: "0.15s" }}
           >
-            Our Socials and Community
+            Our Socials And Community
           </h2>
           <p 
             className={`font-mono text-muted-foreground text-xs sm:text-sm md:text-base transition-all duration-700 ease-out ${

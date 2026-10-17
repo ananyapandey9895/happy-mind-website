@@ -2,10 +2,9 @@ import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import useEmblaCarousel from "embla-carousel-react";
-import careerDirectionImg from "@/assets/Individual/career-direction.png";
-import personalHabitsImg from "@/assets/Individual/personal-habits.png";
-import relationshipImg from "@/assets/Individual/RELATIONSHIP.png";
-import moneyIndependenceImg from "@/assets/Individual/money-independence.png";
+import careerDirectionImg from "@/assets/Individual/career-direction.jpeg";
+import personalHabitsImg from "@/assets/Individual/personal-habits.jpeg";
+import relationshipImg from "@/assets/Individual/relationship.jpeg";
 
 const SolvHeroSection = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -13,16 +12,12 @@ const SolvHeroSection = () => {
     loop: true
   });
 
-  // 4 slides with actual images
+  // 3 slides with actual images
   const slides = [{
     id: 1,
     image: careerDirectionImg,
     title: "Career Direction"
   }, {
-    id: 2,
-    image: moneyIndependenceImg,
-    title: "Money & Independence"
-  },, {
     id: 3,
     image: personalHabitsImg,
     title: "Personal Habits"
@@ -31,9 +26,6 @@ const SolvHeroSection = () => {
     image: relationshipImg,
     title: "Relationship"
   }];
-  const scrollTo = useCallback((index: number) => {
-    if (emblaApi) emblaApi.scrollTo(index);
-  }, [emblaApi]);
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
     setSelectedIndex(emblaApi.selectedScrollSnap());
@@ -59,7 +51,7 @@ const SolvHeroSection = () => {
           <div className="space-y-8 max-w-xl">
             <div className="space-y-6">
               <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-foreground leading-tight font-sans">
-                A <span className="text-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Conscious Growth Space</span> For Life's Real progress.
+                A <span className="text-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Conscious Growth Space</span> For Life's Real Progress.
               </h1>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground leading-relaxed font-serif font-semibold text-left">
                 The journey to be your better version that leads you to make clearer and confident choices. Happiness is derived after knowing yourself through a <span className="text-primary">validated journey</span>. 
@@ -111,12 +103,6 @@ const SolvHeroSection = () => {
                   </div>
                 </div>)}
             </div>
-          </div>
-
-
-          {/* Dot Navigation */}
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-3">
-            {slides.map((_, index) => <button key={index} onClick={() => scrollTo(index)} className={`w-3 h-3 rounded-full transition-all duration-300 ease-in-out ${index === selectedIndex ? "bg-primary scale-110" : "border-2 border-foreground/50 bg-transparent hover:border-foreground"}`} />)}
           </div>
         </div>
       </div>

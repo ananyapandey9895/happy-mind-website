@@ -26,6 +26,7 @@ import ProfilePage from "@/v2/pages/profile";
 import AssessmentPage from "@/v2/pages/assessment";
 import QuizzardPage from "@/v2/pages/quizzard";
 import ExpertsPage from "@/v2/pages/experts";
+import GrowthCoachesPage from "@/v2/pages/growth-coaches";
 import GamesPage from "@/v2/pages/games";
 import ResourcesPage from "@/v2/pages/resources";
 import ArticlesIndex from "@/v2/pages/articles-index";
@@ -86,6 +87,7 @@ const App = () => (
             <Route path="assessment" element={<AssessmentPage />} />
             <Route path="quizzard" element={<QuizzardPage />} />
             <Route path="experts" element={<ExpertsPage />} />
+            <Route path="growth-coaches" element={<GrowthCoachesPage />} />
             <Route path="games" element={<GamesPage />} />
             <Route path="resources" element={<ResourcesPage />} />
             <Route path="articles" element={<ArticlesIndex />} />

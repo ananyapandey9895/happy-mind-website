@@ -192,7 +192,7 @@ const JourneySection = () => {
         {/* Section Headings */}
         <div className="text-center space-y-4 mb-16">
           <h1 className="font-sans text-3xl md:text-4xl lg:text-5xl text-primary font-semibold">
-            Your Journey is Our Journey
+            Your Journey Is Our Journey
           </h1>
           <h2 className="font-serif text-2xl md:text-3xl font-bold text-foreground">
             Start Where You Are

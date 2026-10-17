@@ -1,19 +1,19 @@
 import { Lock, User, Clock, Shield } from "lucide-react";
 const principles = [{
   icon: User,
-  title: "You own your journey",
+  title: "You Own Your Journey",
   description: "Your path is yours. We're here to support, not direct."
 }, {
   icon: Lock,
-  title: "You own your data",
+  title: "You Own Your Data",
   description: "Your information stays private and secure through data privacy laws & policies."
 }, {
   icon: Clock,
-  title: "We respect your pace",
+  title: "We Respect Your Pace",
   description: "Growth takes time. We move at the speed that's right for you."
 }, {
   icon: Shield,
-  title: "We protect your space",
+  title: "We Protect Your Space",
   description: "A safe environment for honest self-exploration."
 }];
 const TrustSection = () => {
@@ -22,7 +22,7 @@ const TrustSection = () => {
         <div className="text-center space-y-3 sm:space-y-4 mb-12 sm:mb-16">
           <p className="text-primary font-semibold tracking-wide uppercase text-xs sm:text-sm md:text-base">Trust, Privacy & Ethics</p>
           <h2 className="font-serif text-xl sm:text-2xl md:text-3xl font-semibold text-foreground">
-            Your safety is our foundation.
+            Your Safety Is Our Foundation.
           </h2>
         </div>
 

@@ -3,25 +3,25 @@ import { Lightbulb, Heart, Target, Cpu } from "lucide-react";
 const gaps = [
   {
     icon: Lightbulb,
-    title: "Growth desire without awareness",
+    title: "Growth Desire Without Awareness",
     description:
       "People want to grow. Organisations invest in growth. But without understanding how we think, react, and decide, growth aspirations become a directionless journey - for individuals and for teams both.",
   },
   {
     icon: Heart,
-    title: "Performance without emotional intelligence",
+    title: "Performance Without Emotional Intelligence",
     description:
       "We expect better outcomes - in careers, in leadership, in life. Yet emotional capability is rarely built with the same intent as technical skills, leading to strained life. The result is progress without resilience, and ambition without clarity.",
   },
   {
     icon: Target,
-    title: "Support without strategy",
+    title: "Support Without Strategy",
     description:
       "Whether it's personal well-being or workplace initiatives, support often exists in fragments- not as a system. Without structure & conscious awareness, insights fade and change rarely lasts.",
   },
   {
     icon: Cpu,
-    title: "Technology without humanity",
+    title: "Technology Without Humanity",
     description:
       "Tools can scale efficiency, but growth is still deeply human. Motivation, behaviour patterns, emotional responses - with awareness and direction shape results far more than processes alone.",
   },

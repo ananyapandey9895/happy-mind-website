@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { V2Link, useV2Navigate, v2Url } from "@/v2/lib/router";
 import { useState, type ReactNode } from "react";
 import { auth, useAuth } from "@/v2/lib/auth";
-import { LayoutDashboard, ClipboardCheck, BookOpen, Sparkles, Gamepad2, CreditCard, Puzzle, Activity, LifeBuoy, Settings, LogOut, Search, Calendar, Menu, Smartphone } from "lucide-react";
+import { LayoutDashboard, ClipboardCheck, BookOpen, Sparkles, Gamepad2, CreditCard, Puzzle, Activity, LifeBuoy, Settings, LogOut, Search, Calendar, Menu, Smartphone, TrendingUp } from "lucide-react";
 import { BookSessionDialog } from "@/v2/components/book-session-dialog";
 import { Input } from "@/v2/components/ui/input";
 import { Footer } from "./footer";
@@ -38,6 +38,7 @@ const navItems: NavItem[] = [
   { icon: BookOpen, label: "Resources", key: "resources", to: "/resources" },
   { icon: Sparkles, label: "Services", key: "services", to: "/services" },
   { icon: Gamepad2, label: "Games", key: "games", to: "/games", isNew: true },
+  { icon: TrendingUp, label: "Growth Coaches", key: "growth-coaches", to: "/growth-coaches" },
 ];
 
 /** Pill badge for newly launched sections. */

@@ -1,58 +1,68 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import OrgAnnouncementBanner from "@/components/org/OrgAnnouncementBanner";
-import OrgHeroSection from "@/components/org/OrgHeroSection";
-import OrgScrollingBanner from "@/components/org/OrgScrollingBanner";
-import OrgBusinessRealityStrip from "@/components/org/OrgBusinessRealityStrip";
-import OrgStrategicGapWithHappiMynd from "@/components/org/OrgStrategicGapWithHappiMynd";
-import OrgImpactSection from "@/components/org/OrgImpactSection";
-import OrgHowWeWork from "@/components/org/OrgHowWeWork";
-import OrgProofSection from "@/components/org/OrgProofSection";
-import OrgClientReviews from "@/components/org/OrgClientReviews";
-import OrgTrustConfidentiality from "@/components/org/OrgTrustConfidentiality";
-import OrgScalability from "@/components/org/OrgScalability";
-import OrgStrategicClosing from "@/components/org/OrgStrategicClosing";
+import NovemberBanner from "@/components/org/people-intelligence/NovemberBanner";
+import HeroSection from "@/components/org/people-intelligence/HeroSection";
+import WhyItMatters from "@/components/org/people-intelligence/WhyItMatters";
+import WhatIsUnique from "@/components/org/people-intelligence/WhatIsUnique";
+import WhatIsThePoc from "@/components/org/people-intelligence/WhatIsThePoc";
+import OperatingFramework from "@/components/org/people-intelligence/OperatingFramework";
+import IntelligentOutcome from "@/components/org/people-intelligence/IntelligentOutcome";
+import CreateWinWin from "@/components/org/people-intelligence/CreateWinWin";
+import SupportSystem from "@/components/org/people-intelligence/SupportSystem";
+import ProvenImpact from "@/components/org/people-intelligence/ProvenImpact";
+import GrowthEcosystem from "@/components/org/people-intelligence/GrowthEcosystem";
+import PrivacyScience from "@/components/org/people-intelligence/PrivacyScience";
+import CorporateClients from "@/components/org/people-intelligence/CorporateClients";
+import OrgFaq from "@/components/org/people-intelligence/OrgFaq";
+import TrustedBy from "@/components/org/people-intelligence/TrustedBy";
+import PerformancePsychology from "@/components/org/people-intelligence/PerformancePsychology";
 
 const ForOrganisations = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
       <main className="pt-20">
-        <div>
-          <OrgAnnouncementBanner />
-        </div>
+        <NovemberBanner />
         <div className="surface-hero">
-          <OrgHeroSection />
+          <HeroSection />
         </div>
-        <div className="bg-card">
-          <OrgScrollingBanner />
+        <div className="surface-canvas">
+          <WhyItMatters />
         </div>
         <div className="surface-soft">
-          <OrgBusinessRealityStrip />
+          <WhatIsUnique />
         </div>
+        <WhatIsThePoc />
         <div className="surface-canvas">
-          <OrgStrategicGapWithHappiMynd />
-        </div>
-        <div className="surface-band">
-          <OrgImpactSection />
-        </div>
-        <div className="bg-card">
-          <OrgHowWeWork />
+          <OperatingFramework />
         </div>
         <div className="surface-soft">
-          <OrgProofSection />
-        </div>
-        <div className="surface-canvas">
-          <OrgClientReviews />
-        </div>
-        <div className="bg-card">
-          <OrgTrustConfidentiality />
-        </div>
-        <div className="surface-canvas">
-          <OrgScalability />
+          <IntelligentOutcome />
         </div>
         <div className="surface-tint">
-          <OrgStrategicClosing />
+          <TrustedBy />
+        </div>
+        <div className="surface-canvas">
+          <CreateWinWin />
+        </div>
+        <div className="surface-tint">
+          <SupportSystem />
+        </div>
+        <CorporateClients />
+        <div className="surface-canvas">
+          <ProvenImpact />
+        </div>
+        <div className="surface-soft">
+          <GrowthEcosystem />
+        </div>
+        <div className="surface-canvas">
+          <PerformancePsychology />
+        </div>
+        <div className="surface-tint">
+          <PrivacyScience />
+        </div>
+        <div className="surface-canvas">
+          <OrgFaq />
         </div>
       </main>
       <Footer />

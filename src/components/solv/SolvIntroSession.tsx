@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
-import introSessionImage from "@/assets/SOLV-What happens in intro session.png";
+import introSessionImage from "@/assets/solv-intro-session.jpeg";
 
 const explorations = [
   "Where you are in your growth journey",
@@ -38,7 +38,7 @@ const SolvIntroSession = () => {
             >
               <div className="space-y-6 mb-8">
                 <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground">
-                  What Happens In Your 20-minute Intro Session
+                  What Happens In Your 20-Minute Intro Session
                 </h2>
                 <p className="text-muted-foreground text-lg leading-relaxed">
                   Your <span className="text-primary">GROWTH EXPERT </span>(Subject Matter Expert) helps you understand where you truly stand

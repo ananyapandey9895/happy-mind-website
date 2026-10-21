@@ -29,7 +29,7 @@ const DEFAULT_PLATFORMS = [
   },
   {
     key: "games",
-    name: "HappiPause",
+    name: "HappiPAUSE",
     description: "Mind games that turn daily practice into something you look forward to.",
     to: "/games",
   },
@@ -194,7 +194,7 @@ function SubscriptionPage() {
                     </div>
                   ))}
 
-                  {/* Quizzard & HappiPause ship with every membership - always shown */}
+                  {/* Quizzard & HappiPAUSE ship with every membership - always shown */}
                   {DEFAULT_PLATFORMS.map((platform) => (
                     <V2Link
                       key={platform.key}

@@ -22,7 +22,7 @@ function HappiPauseIntro() {
 
   const word = INTRO_WORDS[index];
   return (
-    <span aria-label="HappiPause" className="inline-flex text-lavender-deep">
+    <span aria-label="HappiPAUSE" className="inline-flex text-lavender-deep">
       <span
         key={word}
         aria-hidden="true"
@@ -42,8 +42,8 @@ function HappiPauseIntro() {
 // Letters drop in one by one, then take turns hopping in a wave.
 function HappiPauseWordmark() {
   return (
-    <span aria-label="HappiPause" className="inline-flex text-lavender-deep">
-      {"HappiPause".split("").map((letter, i) => (
+    <span aria-label="HappiPAUSE" className="inline-flex text-lavender-deep">
+      {"HappiPAUSE".split("").map((letter, i) => (
         <span
           key={i}
           aria-hidden="true"
@@ -106,7 +106,7 @@ function GamesPage() {
         {/* Mascot sitting cleanly on bottom-right edge */}
         <img
           src={gamesHeroImg}
-          alt="HappiMynd HappiPause Mascot"
+          alt="HappiMynd HappiPAUSE Mascot"
           className="pointer-events-none absolute bottom-0 right-6 hidden h-auto w-[170px] max-h-[92%] object-contain object-bottom md:block xl:right-12 xl:w-[210px]"
         />
 
@@ -121,7 +121,7 @@ function GamesPage() {
 
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              HappiPause Is on the Way
+              HappiPAUSE Is on the Way
             </h2>
             <p className="text-base text-foreground/70 sm:text-lg">
               We're building a collection of playful, calming activities that help you relax, reset,

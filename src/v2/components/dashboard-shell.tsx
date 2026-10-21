@@ -37,7 +37,7 @@ const navItems: NavItem[] = [
   { icon: Puzzle, label: "Quizzard", key: "quizzard", to: "/quizzard", isNew: true },
   { icon: BookOpen, label: "Resources", key: "resources", to: "/resources" },
   { icon: Sparkles, label: "Services", key: "services", to: "/services" },
-  { icon: Gamepad2, label: "HappiPause", key: "games", to: "/games", isNew: true },
+  { icon: Gamepad2, label: "HappiPAUSE", key: "games", to: "/games", isNew: true },
   { icon: TrendingUp, label: "Growth Coaches", key: "growth-coaches", to: "/growth-coaches" },
 ];
 

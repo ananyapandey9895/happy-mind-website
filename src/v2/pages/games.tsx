@@ -48,7 +48,7 @@ function GamesPage() {
         {/* Mascot sitting cleanly on bottom-right edge */}
         <img
           src={gamesHeroImg}
-          alt="HappiMynd Mindful Games Mascot"
+          alt="HappiMynd HappiPAUSE Mascot"
           className="pointer-events-none absolute bottom-0 right-6 hidden h-auto w-[170px] max-h-[92%] object-contain object-bottom md:block xl:right-12 xl:w-[210px]"
         />
 
@@ -63,7 +63,7 @@ function GamesPage() {
 
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Mindful Games Are on the Way
+              HappiPAUSE Is on the Way
             </h2>
             <p className="text-base text-foreground/70 sm:text-lg">
               We're building a collection of playful, calming activities that help you relax, reset,
